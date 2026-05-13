@@ -1,0 +1,160 @@
+export const prerender = true;
+
+export async function GET() {
+  const roadmaps = [
+    {
+      _id: "checkout",
+      slug: "checkout",
+      type: "role",
+      title: { card: "Checkout", page: "Checkout Roadmap" },
+      description: "Checkout payment flow roadmap",
+      nodes: [],
+      edges: [],
+      draft: { nodes: [], edges: [] },
+      seo: { title: "Checkout", description: "Checkout roadmap", keywords: [] },
+      relatedRoadmaps: [],
+      createdAt: new Date("2024-01-01"),
+      updatedAt: new Date("2024-01-01"),
+      order: 1
+    },
+    {
+      _id: "digital-banking",
+      slug: "digital-banking",
+      type: "role",
+      title: { card: "Digital Banking", page: "Digital Banking Roadmap" },
+      description: "Digital Banking roadmap",
+      nodes: [],
+      edges: [],
+      draft: { nodes: [], edges: [] },
+      seo: { title: "Digital Banking", description: "Digital Banking roadmap", keywords: [] },
+      relatedRoadmaps: [],
+      createdAt: new Date("2024-01-01"),
+      updatedAt: new Date("2024-01-01"),
+      order: 2
+    },
+    {
+      _id: "payouts",
+      slug: "payouts",
+      type: "role",
+      title: { card: "Payouts", page: "Payouts Roadmap" },
+      description: "Payouts roadmap",
+      nodes: [],
+      edges: [],
+      draft: { nodes: [], edges: [] },
+      seo: { title: "Payouts", description: "Payouts roadmap", keywords: [] },
+      relatedRoadmaps: [],
+      createdAt: new Date("2024-01-01"),
+      updatedAt: new Date("2024-01-01"),
+      order: 3
+    },
+    {
+      _id: "core-platform",
+      slug: "core-platform",
+      type: "role",
+      title: { card: "Core Platform", page: "Core Platform Roadmap" },
+      description: "Core Platform roadmap",
+      nodes: [],
+      edges: [],
+      draft: { nodes: [], edges: [] },
+      seo: { title: "Core Platform", description: "Core Platform roadmap", keywords: [] },
+      relatedRoadmaps: [],
+      createdAt: new Date("2024-01-01"),
+      updatedAt: new Date("2024-01-01"),
+      order: 4
+    },
+    {
+      _id: "tigg-engage",
+      slug: "tigg-engage",
+      type: "role",
+      title: { card: "Tigg Engage", page: "Tigg Engage Roadmap" },
+      description: "Tigg Engage roadmap",
+      nodes: [],
+      edges: [],
+      draft: { nodes: [], edges: [] },
+      seo: { title: "Tigg Engage", description: "Tigg Engage roadmap", keywords: [] },
+      relatedRoadmaps: [],
+      createdAt: new Date("2024-01-01"),
+      updatedAt: new Date("2024-01-01"),
+      order: 5
+    },
+    {
+      _id: "global-api-payouts",
+      slug: "global-api-payouts",
+      type: "skill",
+      title: { card: "Global API Payouts", page: "Global API Payouts Roadmap" },
+      description: "Global API Payouts roadmap",
+      nodes: [],
+      edges: [],
+      draft: { nodes: [], edges: [] },
+      seo: { title: "Global API Payouts", description: "Global API Payouts roadmap", keywords: [] },
+      relatedRoadmaps: [],
+      createdAt: new Date("2024-01-01"),
+      updatedAt: new Date("2024-01-01"),
+      order: 6
+    },
+    {
+      _id: "observability",
+      slug: "observability",
+      type: "skill",
+      title: { card: "Observability", page: "Observability Roadmap" },
+      description: "Observability roadmap",
+      nodes: [],
+      edges: [],
+      draft: { nodes: [], edges: [] },
+      seo: { title: "Observability", description: "Observability roadmap", keywords: [] },
+      relatedRoadmaps: [],
+      createdAt: new Date("2024-01-01"),
+      updatedAt: new Date("2024-01-01"),
+      order: 7
+    },
+    {
+      _id: "security",
+      slug: "security",
+      type: "skill",
+      title: { card: "Security", page: "Security Roadmap" },
+      description: "Security roadmap",
+      nodes: [],
+      edges: [],
+      draft: { nodes: [], edges: [] },
+      seo: { title: "Security", description: "Security roadmap", keywords: [] },
+      relatedRoadmaps: [],
+      createdAt: new Date("2024-01-01"),
+      updatedAt: new Date("2024-01-01"),
+      order: 8
+    },
+    {
+      _id: "infrastructure",
+      slug: "infrastructure",
+      type: "skill",
+      title: { card: "Infrastructure", page: "Infrastructure Roadmap" },
+      description: "Infrastructure roadmap",
+      nodes: [],
+      edges: [],
+      draft: { nodes: [], edges: [] },
+      seo: { title: "Infrastructure", description: "Infrastructure roadmap", keywords: [] },
+      relatedRoadmaps: [],
+      createdAt: new Date("2024-01-01"),
+      updatedAt: new Date("2024-01-01"),
+      order: 9
+    },
+    {
+      _id: "checkout-global-api",
+      slug: "checkout-global-api",
+      type: "skill",
+      title: { card: "Checkout Global API", page: "Checkout Global API Roadmap" },
+      description: "Checkout Global API roadmap",
+      nodes: [],
+      edges: [],
+      draft: { nodes: [], edges: [] },
+      seo: { title: "Checkout Global API", description: "Checkout Global API roadmap", keywords: [] },
+      relatedRoadmaps: [],
+      createdAt: new Date("2024-01-01"),
+      updatedAt: new Date("2024-01-01"),
+      order: 10
+    }
+  ];
+
+  return new Response(JSON.stringify(roadmaps), {
+    headers: { 'Content-Type': 'application/json' }
+  });
+}

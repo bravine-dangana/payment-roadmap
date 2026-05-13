@@ -1,5 +1,5 @@
 ---
-import FrameRenderer from '../../components/FrameRenderer/FrameRenderer.astro';
+import { PaymentRoadmapRenderer } from '../../components/EditorRoadmap/PaymentRoadmapRenderer';
 import { FAQs } from '../../components/FAQs/FAQs';
 import RelatedRoadmaps from '../../components/RelatedRoadmaps.astro';
 import RoadmapHeader from '../../components/RoadmapHeader.astro';
@@ -14,7 +14,6 @@ import {
 } from '../../lib/jsonld-schema';
 import { getOpenGraphImageUrl } from '../../lib/open-graph';
 import { RoadmapTitleQuestion } from '../../components/RoadmapTitleQuestion';
-import ResourceProgressStats from '../../components/ResourceProgressStats.astro';
 import { CheckSubscriptionVerification } from '../../components/Billing/CheckSubscriptionVerification';
 import { officialRoadmapDetails } from '../../queries/official-roadmap';
 import { DateTime } from 'luxon';
@@ -26,7 +25,7 @@ interface Params extends Record<string, string | undefined> {
   roadmapId: string;
 }
 
-const { roadmapId } = Astro.params as Params;
+const roadmapId = 'checkout';
 const roadmapData = await officialRoadmapDetails(roadmapId);
 if (!roadmapData) {
   Astro.response.status = 404;
@@ -123,8 +122,7 @@ const isNew = isNewRoadmap(roadmapData.createdAt);
     /> 
 
     <div class='container mt-2.5'>
-      <div class='rounded-md border bg-white'>
-        <ResourceProgressStats resourceId={roadmapId}  /> 
+      <div class='rounded-md border bg-white'> 
         {
           question?.title && (
             <RoadmapTitleQuestion
@@ -147,10 +145,7 @@ const isNew = isNewRoadmap(roadmapData.createdAt);
         
       /> 
 
-      <FrameRenderer
-        resourceId={roadmapId}
-        resourceType='roadmap'
-      />
+      <PaymentRoadmapRenderer client:load />
     </div>
 
     <UserProgressModal

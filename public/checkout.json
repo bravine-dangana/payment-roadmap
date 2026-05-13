@@ -1,0 +1,190 @@
+{
+  "mockup": {
+    "measuredW": 968,
+    "measuredH": 1400,
+    "mockupW": 968,
+    "mockupH": 1400,
+    "controls": {
+      "control": [
+        {
+          "ID": "1", "typeID": "__group__", "zOrder": "1",
+          "x": "284", "y": "20", "w": "400", "h": "60",
+          "measuredW": 400, "measuredH": 60,
+          "properties": { "controlName": "customer-initiates-payment" },
+          "children": { "controls": { "control": [
+            { "typeID": "Canvas", "x": "0", "y": "0", "w": "400", "h": "60", "zOrder": "0", "measuredW": 400, "measuredH": 60, "properties": { "color": "16776960", "borderColor": "0" } },
+            { "typeID": "Label", "x": "10", "y": "10", "w": "380", "h": "40", "zOrder": "1", "measuredW": 380, "measuredH": 40, "properties": { "text": "Customer Initiates Payment", "bold": true, "size": 16 } }
+          ]}}
+        },
+        { "ID": "a1", "typeID": "Arrow", "zOrder": "2", "x": "483", "y": "80", "w": "2", "h": "50", "measuredW": 2, "measuredH": 50, "properties": { "p0": {"x":1,"y":0}, "p1": {"x":0.5,"y":0}, "p2": {"x":1,"y":50}, "color": "4273622" } },
+        {
+          "ID": "2", "typeID": "__group__", "zOrder": "3",
+          "x": "234", "y": "130", "w": "500", "h": "60",
+          "measuredW": 500, "measuredH": 60,
+          "properties": { "controlName": "mno-receives-request" },
+          "children": { "controls": { "control": [
+            { "typeID": "Canvas", "x": "0", "y": "0", "w": "500", "h": "60", "zOrder": "0", "measuredW": 500, "measuredH": 60, "properties": { "color": "16750848", "borderColor": "0" } },
+            { "typeID": "Label", "x": "10", "y": "10", "w": "480", "h": "40", "zOrder": "1", "measuredW": 480, "measuredH": 40, "properties": { "text": "MNO (Mobile Network Operator)", "bold": true, "size": 15 } }
+          ]}}
+        },
+        { "ID": "a2", "typeID": "Arrow", "zOrder": "4", "x": "234", "y": "190", "w": "2", "h": "80", "measuredW": 2, "measuredH": 80, "properties": { "p0": {"x":1,"y":0}, "p1": {"x":0.5,"y":0}, "p2": {"x":1,"y":80}, "color": "4273622" } },
+        { "ID": "a3", "typeID": "Arrow", "zOrder": "5", "x": "733", "y": "190", "w": "2", "h": "80", "measuredW": 2, "measuredH": 80, "properties": { "p0": {"x":1,"y":0}, "p1": {"x":0.5,"y":0}, "p2": {"x":1,"y":80}, "color": "4273622" } },
+        {
+          "ID": "3", "typeID": "__group__", "zOrder": "6",
+          "x": "20", "y": "270", "w": "300", "h": "55",
+          "measuredW": 300, "measuredH": 55,
+          "properties": { "controlName": "stk-push" },
+          "children": { "controls": { "control": [
+            { "typeID": "Canvas", "x": "0", "y": "0", "w": "300", "h": "55", "zOrder": "0", "measuredW": 300, "measuredH": 55, "properties": { "color": "16776960", "borderColor": "0" } },
+            { "typeID": "Label", "x": "8", "y": "8", "w": "284", "h": "39", "zOrder": "1", "measuredW": 284, "measuredH": 39, "properties": { "text": "STK Push Sent to Customer", "size": 13 } }
+          ]}}
+        },
+        {
+          "ID": "4", "typeID": "__group__", "zOrder": "7",
+          "x": "648", "y": "270", "w": "300", "h": "55",
+          "measuredW": 300, "measuredH": 55,
+          "properties": { "controlName": "customer-pin" },
+          "children": { "controls": { "control": [
+            { "typeID": "Canvas", "x": "0", "y": "0", "w": "300", "h": "55", "zOrder": "0", "measuredW": 300, "measuredH": 55, "properties": { "color": "16776960", "borderColor": "0" } },
+            { "typeID": "Label", "x": "8", "y": "8", "w": "284", "h": "39", "zOrder": "1", "measuredW": 284, "measuredH": 39, "properties": { "text": "Customer Enters M-PESA PIN", "size": 13 } }
+          ]}}
+        },
+        { "ID": "a4", "typeID": "Arrow", "zOrder": "8", "x": "165", "y": "325", "w": "2", "h": "75", "measuredW": 2, "measuredH": 75, "properties": { "p0": {"x":1,"y":0}, "p1": {"x":0.5,"y":0}, "p2": {"x":1,"y":75}, "color": "4273622" } },
+        { "ID": "a5", "typeID": "Arrow", "zOrder": "9", "x": "798", "y": "325", "w": "2", "h": "75", "measuredW": 2, "measuredH": 75, "properties": { "p0": {"x":1,"y":0}, "p1": {"x":0.5,"y":0}, "p2": {"x":1,"y":75}, "color": "4273622" } },
+        {
+          "ID": "5", "typeID": "__group__", "zOrder": "10",
+          "x": "234", "y": "400", "w": "500", "h": "60",
+          "measuredW": 500, "measuredH": 60,
+          "properties": { "controlName": "safaricom" },
+          "children": { "controls": { "control": [
+            { "typeID": "Canvas", "x": "0", "y": "0", "w": "500", "h": "60", "zOrder": "0", "measuredW": 500, "measuredH": 60, "properties": { "color": "39168", "borderColor": "0" } },
+            { "typeID": "Label", "x": "10", "y": "10", "w": "480", "h": "40", "zOrder": "1", "measuredW": 480, "measuredH": 40, "properties": { "text": "Safaricom (M-PESA) Processes Payment", "bold": true, "size": 15, "color": "16777215" } }
+          ]}}
+        },
+        { "ID": "a6", "typeID": "Arrow", "zOrder": "11", "x": "483", "y": "460", "w": "2", "h": "50", "measuredW": 2, "measuredH": 50, "properties": { "p0": {"x":1,"y":0}, "p1": {"x":0.5,"y":0}, "p2": {"x":1,"y":50}, "color": "4273622" } },
+        {
+          "ID": "6", "typeID": "__group__", "zOrder": "12",
+          "x": "234", "y": "510", "w": "500", "h": "60",
+          "measuredW": 500, "measuredH": 60,
+          "properties": { "controlName": "cellulant" },
+          "children": { "controls": { "control": [
+            { "typeID": "Canvas", "x": "0", "y": "0", "w": "500", "h": "60", "zOrder": "0", "measuredW": 500, "measuredH": 60, "properties": { "color": "2263842", "borderColor": "0" } },
+            { "typeID": "Label", "x": "10", "y": "10", "w": "480", "h": "40", "zOrder": "1", "measuredW": 480, "measuredH": 40, "properties": { "text": "Cellulant Payment Gateway", "bold": true, "size": 15, "color": "16777215" } }
+          ]}}
+        },
+        { "ID": "a7", "typeID": "Arrow", "zOrder": "13", "x": "234", "y": "570", "w": "2", "h": "70", "measuredW": 2, "measuredH": 70, "properties": { "p0": {"x":1,"y":0}, "p1": {"x":0.5,"y":0}, "p2": {"x":1,"y":70}, "color": "4273622" } },
+        { "ID": "a8", "typeID": "Arrow", "zOrder": "14", "x": "733", "y": "570", "w": "2", "h": "70", "measuredW": 2, "measuredH": 70, "properties": { "p0": {"x":1,"y":0}, "p1": {"x":0.5,"y":0}, "p2": {"x":1,"y":70}, "color": "4273622" } },
+        {
+          "ID": "7", "typeID": "__group__", "zOrder": "15",
+          "x": "20", "y": "640", "w": "300", "h": "55",
+          "measuredW": 300, "measuredH": 55,
+          "properties": { "controlName": "transaction-validation" },
+          "children": { "controls": { "control": [
+            { "typeID": "Canvas", "x": "0", "y": "0", "w": "300", "h": "55", "zOrder": "0", "measuredW": 300, "measuredH": 55, "properties": { "color": "16776960", "borderColor": "0" } },
+            { "typeID": "Label", "x": "8", "y": "8", "w": "284", "h": "39", "zOrder": "1", "measuredW": 284, "measuredH": 39, "properties": { "text": "Transaction Validation", "size": 13 } }
+          ]}}
+        },
+        {
+          "ID": "8", "typeID": "__group__", "zOrder": "16",
+          "x": "648", "y": "640", "w": "300", "h": "55",
+          "measuredW": 300, "measuredH": 55,
+          "properties": { "controlName": "fraud-check" },
+          "children": { "controls": { "control": [
+            { "typeID": "Canvas", "x": "0", "y": "0", "w": "300", "h": "55", "zOrder": "0", "measuredW": 300, "measuredH": 55, "properties": { "color": "16750848", "borderColor": "0" } },
+            { "typeID": "Label", "x": "8", "y": "8", "w": "284", "h": "39", "zOrder": "1", "measuredW": 284, "measuredH": 39, "properties": { "text": "Fraud & Risk Check", "size": 13 } }
+          ]}}
+        },
+        { "ID": "a9", "typeID": "Arrow", "zOrder": "17", "x": "165", "y": "695", "w": "2", "h": "75", "measuredW": 2, "measuredH": 75, "properties": { "p0": {"x":1,"y":0}, "p1": {"x":0.5,"y":0}, "p2": {"x":1,"y":75}, "color": "4273622" } },
+        { "ID": "a10", "typeID": "Arrow", "zOrder": "18", "x": "798", "y": "695", "w": "2", "h": "75", "measuredW": 2, "measuredH": 75, "properties": { "p0": {"x":1,"y":0}, "p1": {"x":0.5,"y":0}, "p2": {"x":1,"y":75}, "color": "4273622" } },
+        {
+          "ID": "9", "typeID": "__group__", "zOrder": "19",
+          "x": "234", "y": "770", "w": "500", "h": "60",
+          "measuredW": 500, "measuredH": 60,
+          "properties": { "controlName": "mno-confirmation" },
+          "children": { "controls": { "control": [
+            { "typeID": "Canvas", "x": "0", "y": "0", "w": "500", "h": "60", "zOrder": "0", "measuredW": 500, "measuredH": 60, "properties": { "color": "16750848", "borderColor": "0" } },
+            { "typeID": "Label", "x": "10", "y": "10", "w": "480", "h": "40", "zOrder": "1", "measuredW": 480, "measuredH": 40, "properties": { "text": "MNO Sends Confirmation", "bold": true, "size": 15 } }
+          ]}}
+        },
+        { "ID": "a11", "typeID": "Arrow", "zOrder": "20", "x": "483", "y": "830", "w": "2", "h": "50", "measuredW": 2, "measuredH": 50, "properties": { "p0": {"x":1,"y":0}, "p1": {"x":0.5,"y":0}, "p2": {"x":1,"y":50}, "color": "4273622" } },
+        {
+          "ID": "10", "typeID": "__group__", "zOrder": "21",
+          "x": "234", "y": "880", "w": "500", "h": "60",
+          "measuredW": 500, "measuredH": 60,
+          "properties": { "controlName": "payment-status" },
+          "children": { "controls": { "control": [
+            { "typeID": "Canvas", "x": "0", "y": "0", "w": "500", "h": "60", "zOrder": "0", "measuredW": 500, "measuredH": 60, "properties": { "color": "2263842", "borderColor": "0" } },
+            { "typeID": "Label", "x": "10", "y": "10", "w": "480", "h": "40", "zOrder": "1", "measuredW": 480, "measuredH": 40, "properties": { "text": "Payment Status Determined", "bold": true, "size": 15, "color": "16777215" } }
+          ]}}
+        },
+        { "ID": "a12", "typeID": "Arrow", "zOrder": "22", "x": "234", "y": "940", "w": "2", "h": "70", "measuredW": 2, "measuredH": 70, "properties": { "p0": {"x":1,"y":0}, "p1": {"x":0.5,"y":0}, "p2": {"x":1,"y":70}, "color": "4273622" } },
+        { "ID": "a13", "typeID": "Arrow", "zOrder": "23", "x": "733", "y": "940", "w": "2", "h": "70", "measuredW": 2, "measuredH": 70, "properties": { "p0": {"x":1,"y":0}, "p1": {"x":0.5,"y":0}, "p2": {"x":1,"y":70}, "color": "4273622" } },
+        {
+          "ID": "11", "typeID": "__group__", "zOrder": "24",
+          "x": "20", "y": "1010", "w": "300", "h": "55",
+          "measuredW": 300, "measuredH": 55,
+          "properties": { "controlName": "success-response" },
+          "children": { "controls": { "control": [
+            { "typeID": "Canvas", "x": "0", "y": "0", "w": "300", "h": "55", "zOrder": "0", "measuredW": 300, "measuredH": 55, "properties": { "color": "39168", "borderColor": "0" } },
+            { "typeID": "Label", "x": "8", "y": "8", "w": "284", "h": "39", "zOrder": "1", "measuredW": 284, "measuredH": 39, "properties": { "text": "Success Response", "size": 13, "color": "16777215" } }
+          ]}}
+        },
+        {
+          "ID": "12", "typeID": "__group__", "zOrder": "25",
+          "x": "648", "y": "1010", "w": "300", "h": "55",
+          "measuredW": 300, "measuredH": 55,
+          "properties": { "controlName": "failure-timeout" },
+          "children": { "controls": { "control": [
+            { "typeID": "Canvas", "x": "0", "y": "0", "w": "300", "h": "55", "zOrder": "0", "measuredW": 300, "measuredH": 55, "properties": { "color": "13382451", "borderColor": "0" } },
+            { "typeID": "Label", "x": "8", "y": "8", "w": "284", "h": "39", "zOrder": "1", "measuredW": 284, "measuredH": 39, "properties": { "text": "Failure / Timeout", "size": 13, "color": "16777215" } }
+          ]}}
+        },
+        { "ID": "a14", "typeID": "Arrow", "zOrder": "26", "x": "165", "y": "1065", "w": "2", "h": "75", "measuredW": 2, "measuredH": 75, "properties": { "p0": {"x":1,"y":0}, "p1": {"x":0.5,"y":0}, "p2": {"x":1,"y":75}, "color": "4273622" } },
+        { "ID": "a15", "typeID": "Arrow", "zOrder": "27", "x": "798", "y": "1065", "w": "2", "h": "75", "measuredW": 2, "measuredH": 75, "properties": { "p0": {"x":1,"y":0}, "p1": {"x":0.5,"y":0}, "p2": {"x":1,"y":75}, "color": "4273622" } },
+        {
+          "ID": "13", "typeID": "__group__", "zOrder": "28",
+          "x": "234", "y": "1140", "w": "500", "h": "60",
+          "measuredW": 500, "measuredH": 60,
+          "properties": { "controlName": "webhook-callback" },
+          "children": { "controls": { "control": [
+            { "typeID": "Canvas", "x": "0", "y": "0", "w": "500", "h": "60", "zOrder": "0", "measuredW": 500, "measuredH": 60, "properties": { "color": "2263842", "borderColor": "0" } },
+            { "typeID": "Label", "x": "10", "y": "10", "w": "480", "h": "40", "zOrder": "1", "measuredW": 480, "measuredH": 40, "properties": { "text": "Webhook / Callback Fired", "bold": true, "size": 15, "color": "16777215" } }
+          ]}}
+        },
+        { "ID": "a16", "typeID": "Arrow", "zOrder": "29", "x": "483", "y": "1200", "w": "2", "h": "50", "measuredW": 2, "measuredH": 50, "properties": { "p0": {"x":1,"y":0}, "p1": {"x":0.5,"y":0}, "p2": {"x":1,"y":50}, "color": "4273622" } },
+        {
+          "ID": "14", "typeID": "__group__", "zOrder": "30",
+          "x": "184", "y": "1250", "w": "600", "h": "60",
+          "measuredW": 600, "measuredH": 60,
+          "properties": { "controlName": "merchant-notified" },
+          "children": { "controls": { "control": [
+            { "typeID": "Canvas", "x": "0", "y": "0", "w": "600", "h": "60", "zOrder": "0", "measuredW": 600, "measuredH": 60, "properties": { "color": "16776960", "borderColor": "0" } },
+            { "typeID": "Label", "x": "10", "y": "10", "w": "580", "h": "40", "zOrder": "1", "measuredW": 580, "measuredH": 40, "properties": { "text": "Merchant Notified of Payment Status", "bold": true, "size": 16 } }
+          ]}}
+        },
+        { "ID": "a17", "typeID": "Arrow", "zOrder": "31", "x": "284", "y": "1310", "w": "2", "h": "60", "measuredW": 2, "measuredH": 60, "properties": { "p0": {"x":1,"y":0}, "p1": {"x":0.5,"y":0}, "p2": {"x":1,"y":60}, "color": "4273622" } },
+        { "ID": "a18", "typeID": "Arrow", "zOrder": "32", "x": "683", "y": "1310", "w": "2", "h": "60", "measuredW": 2, "measuredH": 60, "properties": { "p0": {"x":1,"y":0}, "p1": {"x":0.5,"y":0}, "p2": {"x":1,"y":60}, "color": "4273622" } },
+        {
+          "ID": "15", "typeID": "__group__", "zOrder": "33",
+          "x": "20", "y": "1370", "w": "350", "h": "55",
+          "measuredW": 350, "measuredH": 55,
+          "properties": { "controlName": "order-fulfilled" },
+          "children": { "controls": { "control": [
+            { "typeID": "Canvas", "x": "0", "y": "0", "w": "350", "h": "55", "zOrder": "0", "measuredW": 350, "measuredH": 55, "properties": { "color": "39168", "borderColor": "0" } },
+            { "typeID": "Label", "x": "8", "y": "8", "w": "334", "h": "39", "zOrder": "1", "measuredW": 334, "measuredH": 39, "properties": { "text": "Order Fulfilled", "size": 14, "bold": true, "color": "16777215" } }
+          ]}}
+        },
+        {
+          "ID": "16", "typeID": "__group__", "zOrder": "34",
+          "x": "598", "y": "1370", "w": "350", "h": "55",
+          "measuredW": 350, "measuredH": 55,
+          "properties": { "controlName": "retry-refund" },
+          "children": { "controls": { "control": [
+            { "typeID": "Canvas", "x": "0", "y": "0", "w": "350", "h": "55", "zOrder": "0", "measuredW": 350, "measuredH": 55, "properties": { "color": "13382451", "borderColor": "0" } },
+            { "typeID": "Label", "x": "8", "y": "8", "w": "334", "h": "39", "zOrder": "1", "measuredW": 334, "measuredH": 39, "properties": { "text": "Retry / Refund Flow", "size": 14, "bold": true, "color": "16777215" } }
+          ]}}
+        }
+      ]
+    }
+  }
+}

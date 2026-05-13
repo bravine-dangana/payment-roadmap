@@ -41,7 +41,7 @@ export async function httpCall<ResponseType = AppResponse>(
 ): Promise<ApiReturn<ResponseType>> {
   const fullUrl = url.startsWith('http')
     ? url
-    : `${import.meta.env.PUBLIC_API_URL}${url}`;
+    : typeof window === "undefined" ? `http://localhost:4321${url}` : `${import.meta.env.PUBLIC_API_URL}${url}`;
   try {
     let visitorId = '';
 

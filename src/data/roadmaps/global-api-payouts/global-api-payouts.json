@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {
+      "width": 200,
+      "height": 50,
+      "id": "start-node",
+      "type": "topic",
+      "position": { "x": 0, "y": 0 },
+      "selected": false,
+      "data": {
+        "label": "Start Here",
+        "style": {
+          "fontSize": 14,
+          "backgroundColor": "#ebba16",
+          "borderColor": "#000000"
+        }
+      },
+      "zIndex": 999
+    }
+  ],
+  "edges": []
+}
